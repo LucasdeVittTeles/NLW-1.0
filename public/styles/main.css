@@ -1,0 +1,32 @@
+:root {
+    --titleColor:#322153;
+    --corPrimaria: #34cb34;
+}
+
+/* root criar variaveis */
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--titleColor);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}

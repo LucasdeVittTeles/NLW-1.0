@@ -1,0 +1,46 @@
+@media(max-width:900px){
+    #pageHome{
+        background-position-x: 70vw;
+    }
+    #pageHome .container{
+        align-items: center;
+        text-align: center;
+    }
+    #pageHome header a{
+        position: absolute;
+        bottom: 48px;
+        margin-left: 50px;
+        transform: translateX(-50%);
+    }
+
+    #pageHome main{
+        align-items: center;
+    }
+
+#pageSearchResults .cards {
+    grid-template-columns: 1fr;
+}
+
+#pageSearchResults .cards img{
+height: 250px;
+}
+
+#pageCreatePoint .field-group{
+    flex-direction: column ;
+}
+#pageCreatePoint .field-group .field + .field {
+    margin-left: 0;
+}
+}
+
+    @media(min-width:1700px){
+        #pageHome{
+            background-position-x: 40vw;
+        }
+    }
+
+    @media(max-height: 760px ){
+        #pageHome{
+            background-position-y: 200px;
+    }
+}

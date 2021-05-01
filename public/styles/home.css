@@ -1,0 +1,109 @@
+#pageHome {
+    background: url("../extras-aula-1/icones/home-background.svg") no-repeat;
+   height: 100vh;
+   background-position: 35vw bottom ;
+   }
+   /* 
+   vh é 100 de altura da pagina */
+   
+   header {
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+   }
+   
+   .container{
+       width: 90%;
+       max-width: 1100;
+       margin:0 auto;
+       display: flex;
+       height: 100%;
+       flex-direction: column;
+   }
+   
+   a{
+       text-decoration: none;
+   }
+   #pageHome header a {
+       color: var(--titleColor);
+       display: flex;
+       font-weight: 700;
+       text-decoration: none;
+   }
+   
+ 
+   header span { 
+       background-image: url("../extras-aula-1/icones/log-in.svg"); 
+       margin-right: 16px;
+       display: flex;
+       width: 20px;
+       height: 20px;
+   }
+   
+   #pageHome .container main{
+       max-width: 560px;
+       flex: 1;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+   
+   #pageHome .container main h1{
+       font-size: 54px;
+       color: var(--titleColor);
+   }
+   
+   #pageHome .container main p{
+       font-size: 24px;
+       line-height: 38px;
+       margin-top: 24px;
+   }
+   
+   
+   /* o primeiro valor de margin e cime e baixo e a segunda sao os lados 
+   exemplo pra entender
+   margin:50px auto 20px 15px;
+   */
+   
+   #pageHome main a{
+   height: 72px;
+   width: 1000px;
+   max-width: 360px;
+   border-radius: 8px;
+   display: flex;
+   align-items: center;
+   background: var(--corPrimaria);
+   margin-top: 40px;
+   transition: 400ms ;
+   }
+   
+   #pageHome main a:hover{
+       background-color: #2fb86e;
+   }
+   
+   #pageHome main a span{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       width: 72px;
+       height: 72px;
+   border-top-left-radius: 8px;
+       background-color: rgba(0,0,0,0.08);
+   }
+   
+   #pageHome main a span::after{
+       content: "";
+       background-image: url(../extras-aula-1/icones/search.svg);
+       width: 20px;
+       height: 20px;
+   }
+   
+   #pageHome main a strong{
+   color: white;
+   flex: 1;
+   text-align: center;
+   }
+   
+   
+   
